@@ -44,16 +44,6 @@ cultureInfo en-US
 			            },
 			            "Weight": 0.9
 			          }
-			        },
-			        {
-			          "Total sales": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
 			        }
 			      ]
 			    },
@@ -5655,6 +5645,16 @@ cultureInfo en-US
 			            },
 			            "Weight": 0.591
 			          }
+			        },
+			        {
+			          "category": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -5730,6 +5730,16 @@ cultureInfo en-US
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "Sub-Category": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        }
 			      ]
@@ -8652,6 +8662,16 @@ cultureInfo en-US
 			          "repeat customer revenue from previous month": {
 			            "State": "Generated"
 			          }
+			        },
+			        {
+			          "Repeat Customer Revenue PM": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -9481,10 +9501,19 @@ cultureInfo en-US
 			          "ConceptualProperty": "Delivery"
 			        }
 			      },
+			      "State": "Generated"
+			    },
+			    "data.average_order_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data",
+			          "ConceptualProperty": "Average Order Value"
+			        }
+			      },
 			      "State": "Generated",
 			      "Terms": [
 			        {
-			          "Delivery": {
+			          "Avg Order Value": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
